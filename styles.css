@@ -46,7 +46,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     background-color: var(--darkDesaturatedBlue);
     padding: 72px;
     border-radius: 8px 0 0 8px;
@@ -64,10 +64,12 @@ main {
 }
 
 .container-1 p {
+    position: relative;
     color: var(--transparentWhite);
     font-size: 15px;
     font-family: "Inter", sans-serif;
     line-height: 1.6rem;
+    padding-top: -10px;
 }
 
 .stat-heading {
@@ -112,10 +114,11 @@ li:last-of-type {
 img {
     object-fit: contain;
     border-radius: 0 8px 8px 0;
-    opacity: 75%;
+    opacity: 40%;
 }
 
 .attribution {
+    color: white;
     font-size: 11px;
     text-align: center;
 }
@@ -168,12 +171,13 @@ img {
     }
     .container-2 {
         width: 88vw;
-        object-fit: cover;
-        padding: 0;
+        object-fit: contain;
         height: auto;
+        margin: -4px;
+        padding: 0;
     }
 
-    .img {
+    img {
         width: 100%;
     }
 }
